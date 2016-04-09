@@ -24,7 +24,6 @@ def main():
     # 継承関係がなくても仮想的サブクラスに登録しているので
     # isinstance()はTrue
     obj = DuckSubClass()
-    obj.greet()
     print(isinstance(obj, SuperClass))
 
 

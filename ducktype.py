@@ -21,6 +21,7 @@ def main():
     # DuckSubClassはSuperClassのように振る舞う
     # しかし、継承関係ではないのでisinstance()はFalse
     obj = DuckSubClass()
+    obj.greet()
     print(isinstance(obj, SuperClass))
 
 
